@@ -1,0 +1,209 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "DeepMorphy/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "TensorFlowSharp": "[1.12.0]"
+        },
+        "compile": {
+          "lib/netstandard2.0/DeepMorphy.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DeepMorphy.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "TensorFlowSharp/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlowSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlowSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libtensorflow.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/linux/native/libtensorflow_framework.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/libtensorflow.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libtensorflow_framework.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/libtensorflow.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeepMorphy/2.0.3": {
+      "sha512": "QAvoP80zmcQ7DGipXGcW5PY8Q9hv4Rnfw7xyEzTKT71unkz+ZbdbD5cGVcCeBtzwk+Fc7rFXYSS1OwkAle8aFA==",
+      "type": "package",
+      "path": "deepmorphy/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "deepmorphy.2.0.3.nupkg.sha512",
+        "deepmorphy.nuspec",
+        "lib/netstandard2.0/DeepMorphy.dll"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "TensorFlowSharp/1.12.0": {
+      "sha512": "jTB+4nIfp8fVxm+59mO19nBN+p7Xxt8RrENuSAITb1+yw1IZghPLywMKVLcZ4jNV3Ile4ezPHHNKhWZ5Ozv7nQ==",
+      "type": "package",
+      "path": "tensorflowsharp/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/TensorFlowSharp.targets",
+        "lib/net471/TensorFlowSharp.dll",
+        "lib/net471/TensorFlowSharp.xml",
+        "lib/netstandard2.0/TensorFlowSharp.dll",
+        "lib/netstandard2.0/TensorFlowSharp.xml",
+        "runtimes/linux/native/libtensorflow.so",
+        "runtimes/linux/native/libtensorflow_framework.so",
+        "runtimes/osx/native/libtensorflow.dylib",
+        "runtimes/osx/native/libtensorflow_framework.dylib",
+        "runtimes/win7-x64/native/libtensorflow.dll",
+        "tensorflowsharp.1.12.0.nupkg.sha512",
+        "tensorflowsharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "DeepMorphy >= 2.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\alice\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\alice\\source\\repos\\Correction\\Correction\\Correction.csproj",
+      "projectName": "Correction",
+      "projectPath": "C:\\Users\\alice\\source\\repos\\Correction\\Correction\\Correction.csproj",
+      "packagesPath": "C:\\Users\\alice\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alice\\source\\repos\\Correction\\Correction\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\alice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "DeepMorphy": {
+            "target": "Package",
+            "version": "[2.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
